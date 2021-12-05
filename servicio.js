@@ -31,6 +31,6 @@ function promesa(texto){
 
 peticion().then(promesa);
 /**
- * Se ejecutara cada 30 segundos, para actualizar el precio del bitcoin.
+ * Se ejecutara cada 30 segundos, para actualizar el precio del Bitcoin.
  */
 setInterval('peticion().then(promesa)',30000);
